@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2020/07/26/11/27/city-5439202_640.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+}
+nav {
+height: 10%;
+width: 100%;
+/* background-color: bisque; */
+padding: 2%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: darkcyan;
+font-weight: 550;
+text-transform: capitalize;
+
+}
+nav ul {
+    display: flex;
+    gap: 4em;
+    list-style: none;
+}
+
+section {
+    height: 65%;
+    width: 40%;
+    background-color: #c0d7eb;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 3px;
+  
+  
+}
+
+input {
+    /* display: inline-block; */
+    padding: 1% 1%;
+    margin-top: 4%;
+    height: 15%;
+    width: 100%;
+   
+   
+}
+.checkbox {
+    /* width: 30em; */
+    display: flex;
+    background-color: #fff;
+    margin-top: .5em;
+}
+button {
+    width: 100%;
+ padding: 1.25em ;
+ margin-top: 1em;
+ color: white;
+ background-color: darkcyan;
+ border: none;
+ border-radius: 20px;
+}
+button:hover {
+color: darkcyan;
+background-color: rgb(136, 208, 208);
+}
